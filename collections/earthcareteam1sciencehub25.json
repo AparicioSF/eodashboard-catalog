@@ -7,21 +7,39 @@
       "Style": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2_style.json",
       "TimeEntries": [
         {
-          "Time": "2025",
+          "Time": "20250616",
           "Assets": [
             {
-              "Identifier": "earthCARE_1",
+              "Identifier": "earthCARE_COG3",
+              "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG3.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250621",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_COG2",
               "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20250628",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_COG4",
+              "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG4.tif"
             }
           ]
         }
       ],
       "Name": "COG source",
       "Bbox": [
-        304.0794850578715,
-        -81.911572265625,
-        501.57844497387146,
-        66.22093505859374
+        0.002731592490146796,
+        -0.0007358241731196813,
+        0.004505755833049311,
+        0.0005948727808942067
       ]
     }
   ],
