@@ -1,3 +1,29 @@
 {
-  "Name": "earthCARE_Team1ScienceHub25"
+  "Name": "earthCARE_Team1ScienceHub25",
+  "Title": "EarthCARE MSI",
+  "Description": "The RGB composite of an EarthCARE MSI image combines measurements from different visible and near-infrared spectral bands to produce a natural- or false-colour representation of the Earth’s surface and atmosphere observed by the Multi-Spectral Imager (MSI) onboard the EarthCARE satellite.",
+  "Resources": [
+    {
+      "Style": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_1",
+              "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_MSI_1B_COG2.tif"
+            }
+          ]
+        }
+      ],
+      "Name": "COG source",
+      "Bbox": [
+        304.0794850578715,
+        -81.911572265625,
+        501.57844497387146,
+        66.22093505859374
+      ]
+    }
+  ],
+  "EodashIdentifier": "earthCARE_MSI"
 }
