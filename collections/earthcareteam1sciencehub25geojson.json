@@ -1,3 +1,31 @@
 {
-  "Name": "earthCARE_Team1ScienceHub25_geojson"
+  "Name": "earthCARE_Team1ScienceHub25_geojson",
+  "Title": "EarthCARE MSI Orbit Track",
+  "Description": "",
+  "Resources": [
+    {
+      "Style": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/earthcare_msi_geojson_style.json",
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "earthCARE_COG3_orbit",
+              "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250628T152631Z_20250628T174754Z_06157A.geojson"
+            },
+            {
+              "Identifier": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250621T010314Z_20250621T035704Z_06038G.geojson",
+              "File": "earthCARE_COG2_orbit"
+            },
+            {
+              "Identifier": "earthCARE_COG4_orbit",
+              "File": "https://dashboards-operations.aws.hub.eox.at/api/public/share/public/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250616T202420Z_20250616T233239Z_05973E.geojson"
+            }
+          ]
+        }
+      ],
+      "Name": "GeoJSON source"
+    }
+  ],
+  "EodashIdentifier": "earthCARE_MSI_geogson2025"
 }
