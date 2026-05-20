@@ -7,7 +7,7 @@
       "Style": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_MSI_1B_style.json",
       "TimeEntries": [
         {
-          "Time": "ECA_MSI_1B_20250616.tif",
+          "Time": "20250616",
           "Assets": [
             {
               "Identifier": "earthCARE_MSI_20250616",
