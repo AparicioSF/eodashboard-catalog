@@ -34,7 +34,13 @@
           ]
         }
       ],
-      "Name": "COG source"
+      "Name": "COG source",
+      "Bbox": [
+        -129.04246476420442,
+        -62.546825623244416,
+        129.94171536583403,
+        40.5243262816011
+      ]
     }
   ],
   "EodashIdentifier": "earthCARE_MSI"
