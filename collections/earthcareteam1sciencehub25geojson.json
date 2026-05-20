@@ -10,7 +10,7 @@
           "Time": "20250628",
           "Assets": [
             {
-              "Identifier": "earthCARE_orbit_track_20250628",
+              "Identifier": "EarthCARE_orbit_track_20250628",
               "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250628T152631Z_20250628T174754Z_06157A.geojson"
             }
           ]
@@ -19,7 +19,7 @@
           "Time": "20250616",
           "Assets": [
             {
-              "Identifier": "earthCARE_orbit_track_20250616",
+              "Identifier": "EarthCARE_orbit_track_20250616",
               "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250616T202420Z_20250616T233239Z_05973E.geojson"
             }
           ]
@@ -28,7 +28,7 @@
           "Time": "20250621",
           "Assets": [
             {
-              "Identifier": "earthCARE_orbit_track_20250621",
+              "Identifier": "EarthCARE_orbit_track_20250621",
               "File": "https://workspace-ui-public.dashboards-operations.aws.hub.eox.at/api/public/share/public-708aab981-1a/earthCARE_Team1SienceHub25/ECA_EXAD_AC__TC__2B_20250621T010314Z_20250621T035704Z_06038G.geojson"
             }
           ]
