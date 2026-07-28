@@ -120,7 +120,7 @@
       "name": "Terrain Light Stereographic South",
       "url": "https://sxcat-demo.eox.at/sxcat_maps/wms",
       "layers": "sx-cat_ortho320500",
-      "visible": false,
+      "visible": true,
       "protocol": "wms",
       "DataProjection": {
         "name": "ORTHO:320500",
@@ -133,7 +133,7 @@
       "name": "Antarctic hilshade, bathymetry",
       "url": "https://maps.bas.ac.uk/antarctic/wms",
       "layers": "add:antarctic_hillshade_and_bathymetry",
-      "visible": true,
+      "visible": false,
       "protocol": "wms",
       "DataProjection": {
         "name": "EPSG:3031",
