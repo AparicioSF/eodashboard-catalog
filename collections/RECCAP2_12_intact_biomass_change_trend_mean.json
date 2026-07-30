@@ -28,12 +28,11 @@
   "Citation": {
     "Publication": [
       {
-        "Citation": "Fawcett, Dominic, Sitch, Stephen, Ciais, Philippe, Wigneron, Jean Pierre, Silva-Junior, Celso H. L., Heinrich, Viola, Vancutsem, Christelle, Achard, Frédéric, Bastos, Ana, Yang, Hui, Li, Xiaojun, Albergel, Clément, Friedlingstein, Pierre, & Aragão, Luiz E. O. C. (2022). \nProcessed Data for Figures of 'Declining Amazon biomass due to deforestation and subsequent degradation losses exceeding gains' (Version v1) [Data set]. Zenodo.\n",
+        "Citation": "Fawcett, Dominic, Sitch, Stephen, Ciais, Philippe, Wigneron, Jean Pierre, Silva-Junior, Celso H. L., Heinrich, Viola, Vancutsem, Christelle, Achard, Fr\u00e9d\u00e9ric, Bastos, Ana, Yang, Hui, Li, Xiaojun, Albergel, Cl\u00e9ment, Friedlingstein, Pierre, & Arag\u00e3o, Luiz E. O. C. (2022). \nProcessed Data for Figures of 'Declining Amazon biomass due to deforestation and subsequent degradation losses exceeding gains' (Version v1) [Data set]. Zenodo.\n",
         "DOI": "10.5281/zenodo.7245450"
       }
     ]
   },
-  "Legend": "RECCAP2_9_intact_biomass_change_methods_mean/RECCAP2_9_legend.png",
   "Image": "RECCAP2_9_intact_biomass_change_methods_mean/World-RECCAP2_9.jpg",
   "References": [
     {
@@ -85,13 +84,14 @@
       "Query": {
         "Start": "2011-01-01T00:00:00Z",
         "End": "2018-12-31T00:00:00Z"
-      }
+      },
+      "Unit": "[Mg C/ha/year]"
     }
   ],
   "Process": {
-  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "RECCAP2_12_intact_biomass_change_trend_mean/chart.json",
-  "EndPoints": [
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "RECCAP2_12_intact_biomass_change_trend_mean/chart.json",
+    "EndPoints": [
       {
         "Url": "https://reccap2.api.brockmann-consult.de/api/timeseries/cop28~reccap2-9x108x139-0.0.1.zarr/intact_biomass_change_trend_mean?aggMethods=median",
         "Identifier": "xcube_statistics",
@@ -104,35 +104,12 @@
   "Provider": [
     {
       "Name": "ESA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://climate.esa.int/en/projects/reccap-2/"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      -5,
-      5
-    ],
-    "range": [
-      "#9e0142",
-      "#c8304c",
-      "#e65749",
-      "#f7814c",
-      "#fdb264",
-      "#fed885",
-      "#fff3ab",
-      "#f5fbb0",
-      "#ddf19a",
-      "#b0dfa3",
-      "#7bcaa5",
-      "#4ea7b0",
-      "#3c7bb7",
-      "#5e4fa2"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[Mg C/ha/year]"
-  },
   "Stories": [
     {
       "Name": "Forest Loss and Degradation",

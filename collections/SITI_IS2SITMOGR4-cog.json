@@ -31,7 +31,6 @@
     "Citation": "Petty, A. A., N. Kurtz, R. Kwok, T. Markus, T. A. Neumann, and N. Keeney. 2022. ICESat-2 L4 Monthly Gridded Sea Ice Thickness, Version 2. [Indicate subset used]. \nBoulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. \n",
     "DOI": "10.5067/OE8BDP5KU30Q"
   },
-  "Legend": "SITI_IS2SITMOGR4-cog/SITI_legend.png",
   "Image": "SITI_IS2SITMOGR4-cog/SITI_IS2SITMOGR4-cog.jpg",
   "References": [
     {
@@ -50,41 +49,19 @@
         0.0,
         4.0
       ],
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "Sea-ice thickness [m]"
     }
   ],
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer"],
+      "Roles": [
+        "licensor, producer"
+      ],
       "Url": "https://www.earthdata.nasa.gov/"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      4
-    ],
-    "range": [
-      "#0d0887",
-      "#370499",
-      "#5801a4",
-      "#7701a8",
-      "#920fa3",
-      "#ac2694",
-      "#c23c81",
-      "#d45270",
-      "#e4695e",
-      "#f1814d",
-      "#fa9b3d",
-      "#feb82c",
-      "#fad824",
-      "#f0f921"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Sea-ice thickness [m]"
-  },
   "Stories": [
     {
       "Name": "Sea Ice Freeboard and Thickness",

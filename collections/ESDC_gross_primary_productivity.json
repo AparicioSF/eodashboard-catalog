@@ -34,7 +34,6 @@
       }
     ]
   },
-  "Legend": "ESDC_gross_primary_productivity/ESDC_gross_primary_productivity_legend.png",
   "Image": "ESDC_gross_primary_productivity/ESDC_gross_primary_productivity.jpg",
   "References": [
     {
@@ -62,13 +61,14 @@
       "Query": {
         "Start": "2014-01-01T00:00:00Z",
         "End": "2018-12-23T00:00:00Z"
-      }
+      },
+      "Unit": "[gC/m\u00b2/day]"
     }
   ],
   "Process": {
-  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "ESDC_gross_primary_productivity/chart.json",
-  "EndPoints": [
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "ESDC_gross_primary_productivity/chart.json",
+    "EndPoints": [
       {
         "Url": "https://api.earthsystemdatalab.net/api/timeseries/esdc/gross_primary_productivity?aggMethods=median",
         "Identifier": "xcube_statistics",
@@ -81,33 +81,10 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://terra.nasa.gov/data/modis-data"
     }
-  ],
-  "Colorlegend": {
-    "domain": [
-      -1,
-      15
-    ],
-    "range": [
-      "#000080",
-      "#0000d9",
-      "#001dff",
-      "#006cff",
-      "#00baff",
-      "#1cffda",
-      "#5cff9b",
-      "#9bff5c",
-      "#daff1c",
-      "#ffce00",
-      "#ff8500",
-      "#ff3c00",
-      "#d90000",
-      "#800000"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "[gC/m\u00b2/day]"
-  }
+  ]
 }

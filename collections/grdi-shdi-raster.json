@@ -25,7 +25,6 @@
     "Citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2022. Global Gridded Relative Deprivation Index (GRDI), v1. Palisades, NY. NASA Socioeconomic Data and Applications Center (SEDAC).\n",
     "DOI": "10.7927/3xxe-ap97"
   },
-  "Legend": "grdi-v1-built/cm_legend.png",
   "Image": "grdi-shdi-raster/grdi-shdi-raster.jpg",
   "References": [
     {
@@ -48,7 +47,8 @@
         0.0,
         100.0
       ],
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "index"
     }
   ],
   "Provider": [
@@ -57,31 +57,6 @@
       "Url": "https://www.nasa.gov/"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      100
-    ],
-    "range": [
-      "#440154",
-      "#481c6e",
-      "#453581",
-      "#3d4d8a",
-      "#34618d",
-      "#2b748e",
-      "#24878e",
-      "#1f998a",
-      "#25ac82",
-      "#40bd72",
-      "#67cc5c",
-      "#98d83e",
-      "#cde11d",
-      "#fde725"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "index"
-  },
   "Stories": [
     {
       "Name": "Urban Health and Megacities: the case of New Delhi",

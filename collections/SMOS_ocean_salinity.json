@@ -3,7 +3,9 @@
   "Title": "SMOS Ocean Salinity",
   "EodashIdentifier": "SMOS_OS",
   "Description": "smos_ocean_salinity/smos_ocean_salinity.md",
-  "Themes": ["water"],
+  "Themes": [
+    "water"
+  ],
   "Tags": [
     "L-band",
     "Ocean salinity",
@@ -24,23 +26,17 @@
   ],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": ["SMOS"],
-      "Sensor": ["MIRAS"]
+      "Satellite": [
+        "SMOS"
+      ],
+      "Sensor": [
+        "MIRAS"
+      ]
     }
   },
-  "Agency": ["ESA"],
-  "Colorlegend": {
-    "title": "Sea Surface Salinity [psu]",
-    "range": [
-      "rgb(0, 0, 131)",
-      "rgb(0, 60, 170)",
-      "rgb(5, 255, 255)",
-      "rgb(255, 255, 0)",
-      "rgb(250, 0, 0)",
-      "rgb(128, 0, 0)"
-    ],
-    "domain": [0, 50]
-  },
+  "Agency": [
+    "ESA"
+  ],
   "Image": "SMOS_OS/SMOS_OS.png",
   "Resources": [
     {
@@ -51,10 +47,14 @@
       "DatacubeId": "smos-os",
       "Variable": "SSS_corr",
       "ColormapName": "jet",
-      "Rescale": [0, 50],
+      "Rescale": [
+        0,
+        50
+      ],
       "Query": {
         "Start": "2023-01-04T00:00:00Z"
-      }
+      },
+      "Unit": "Sea Surface Salinity [psu]"
     }
   ],
   "Process": {

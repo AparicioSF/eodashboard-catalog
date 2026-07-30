@@ -417,7 +417,6 @@
       "Country": "JP"
     }
   ],
-  "Legend": "N5_nightlights/N5_legend.png",
   "Image": "N5_nightlights/N5_nightlights.jpg",
   "Resources": [
     {
@@ -430,13 +429,16 @@
       "Rescale": [
         0,
         255
-      ]
+      ],
+      "Unit": ""
     }
   ],
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://search.earthdata.nasa.gov/search?portal=idn&fi=VIIRS"
     }
   ],
@@ -456,17 +458,5 @@
       "Key": "covid_dashboard",
       "Url": "https://www.earthdata.nasa.gov/covid19/indicators/bm"
     }
-  ],
-  "Colorlegend": {
-    "domain": [
-      "Less light",
-      "More light"
-    ],
-    "range": [
-      "#000004",
-      "#fcffa4"
-    ],
-    "scaleType": "categorical",
-    "title": ""
-  }
+  ]
 }

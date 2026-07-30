@@ -4,7 +4,9 @@
   "EodashIdentifier": "EPA_Forest_fire_Methane_Daily",
   "Subtitle": "Daily emissions from sector 5 from forest fires for 2012, gridded.",
   "Description": "EPA_Forest_fire_Methane_Daily/EPA_Forest_fire_Methane_Daily.md",
-  "Themes": ["biomass"],
+  "Themes": [
+    "biomass"
+  ],
   "Resources": [
     {
       "EndPoint": "https://openveda.cloud/api/stac/",
@@ -12,13 +14,16 @@
       "Name": "VEDA",
       "CollectionId": "EPA-daily-emissions_5_Forest_Fires",
       "ColormapName": "rainbow",
-      "Rescale": [0, "2e12"],
+      "Rescale": [
+        0,
+        "2e12"
+      ],
       "Nodata": 0,
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "10^12 [molec/cm2/s]"
     }
   ],
   "Image": "EPA_Forest_fire_Methane_Daily/thumbnail.jpg",
-  "Legend": "EPA_Forest_fire_Methane_Daily/cm_legend.png",
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
@@ -32,13 +37,6 @@
         "Type": "application/json"
       }
     ]
-  },
-  "Colorlegend": {
-    "domain": [0, 2],
-    "range": ["#7f00ff", "#4756fb", "#0da4ef", "#2adcdc", "#62fac3", "#9cfaa3", "#d4dc7f", "#ffa457", "#ff562b", "#ff0000"],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "10^12 [molec/cm2/s]"
   },
   "Stories": [
     {

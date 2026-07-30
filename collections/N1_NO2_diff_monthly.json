@@ -27,7 +27,6 @@
     "NASA"
   ],
   "Image": "N1_NO2_diff_monthly/N1_NO2_diff_monthly.jpg",
-  "Legend": "N1_NO2_diff_monthly/N1_NO2_diff_monthly_legend.png",
   "References": [
     {
       "Name": "Aura satellite",
@@ -49,7 +48,8 @@
         "-3e15",
         "3e15"
       ],
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "NO2 difference [10^15 molecules/cm\u00b2]"
     }
   ],
   "Provider": [
@@ -61,27 +61,6 @@
       "Url": "https://www.earthdata.nasa.gov/learn/articles/find-no2-data"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      -3,
-      3
-    ],
-    "range": [
-      "#053061",
-      "#246aae",
-      "#559ec9",
-      "#a7cfe4",
-      "#e1ecf3",
-      "#fae7db",
-      "#f7b799",
-      "#dd7059",
-      "#b51f2e",
-      "#67001f"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "NO2 difference [10^15 molecules/cm\u00b2]"
-  },
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
