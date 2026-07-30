@@ -28,7 +28,6 @@
     "NASA"
   ],
   "Image": "N9_OMI_trno2-COG/N9_OMI_trno2-COG.jpg",
-  "Legend": "N9_OMI_trno2-COG/N9_legend.png",
   "References": [
     {
       "Name": "OMI/Aura NO2 Cloud-Screened Total and Tropospheric Column L3 Global Gridded",
@@ -51,41 +50,19 @@
         0,
         "37e14"
       ],
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "NO2 [10^14 molecules/cm\u00b2]"
     }
   ],
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://search.earthdata.nasa.gov/search?q=OMNO2d_003"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      37
-    ],
-    "range": [
-      "#fff5f0",
-      "#fee8de",
-      "#fed7c7",
-      "#fcc1a9",
-      "#fca88b",
-      "#fc8f6f",
-      "#fb7656",
-      "#f75c41",
-      "#f03f2e",
-      "#dc2824",
-      "#c5171c",
-      "#ae1117",
-      "#8d0912",
-      "#67000d"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "NO2 [10^14 molecules/cm\u00b2]"
-  },
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",

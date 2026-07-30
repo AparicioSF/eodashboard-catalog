@@ -33,7 +33,6 @@
       }
     ]
   },
-  "Legend": "ESDC_kndvi/ESDC_kndvi_legend.png",
   "Image": "ESDC_kndvi/ESDC_kndvi.jpg",
   "References": [
     {
@@ -57,13 +56,14 @@
       "Query": {
         "Start": "2014-01-01T00:00:00Z",
         "End": "2021-12-31T00:00:00Z"
-      }
+      },
+      "Unit": "KNDVI"
     }
   ],
   "Process": {
-  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "ESDC_kndvi/chart.json",
-  "EndPoints": [
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "ESDC_kndvi/chart.json",
+    "EndPoints": [
       {
         "Url": "https://api.earthsystemdatalab.net/api/timeseries/esdc/kndvi?aggMethods=median",
         "Identifier": "xcube_statistics",
@@ -76,35 +76,12 @@
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://terra.nasa.gov/data/modis-data"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      0,
-      1
-    ],
-    "range": [
-      "#a50026",
-      "#cb2527",
-      "#e75136",
-      "#f7814c",
-      "#fdb264",
-      "#fed885",
-      "#fff3ab",
-      "#f0f9ab",
-      "#d1ec86",
-      "#aadb6d",
-      "#7ac665",
-      "#43ac5a",
-      "#148d4a",
-      "#006837"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".1f",
-    "title": "KNDVI"
-  },
   "Stories": [
     {
       "Name": "Evaluating Time Series Interpolation Techniques for Vegetation Monitoring Using Remote Sensing Data",

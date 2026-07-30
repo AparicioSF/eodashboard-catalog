@@ -4,29 +4,15 @@
   "Subtitle": "Net carbon exchange between the ecosystem and the atmosphere",
   "EodashIdentifier": "ESDC_net_ecosystem_exchange",
   "Description": "ESDC_net_ecosystem_exchange/ESDC_net_ecosystem_exchange.md",
-  "Themes": [
-    "biomass"
-  ],
-  "Tags": [
-    "CO2",
-    "Atmosphere",
-    "Photosynthesis",
-    "Open data",
-    "Carbon"
-  ],
+  "Themes": ["biomass"],
+  "Tags": ["CO2", "Atmosphere", "Photosynthesis", "Open data", "Carbon"],
   "DataSource": {
     "Spaceborne": {
-      "Satellite": [
-        "Terra"
-      ],
-      "Sensor": [
-        "MODIS"
-      ]
+      "Satellite": ["Terra"],
+      "Sensor": ["MODIS"]
     }
   },
-  "Agency": [
-    "NASA"
-  ],
+  "Agency": ["NASA"],
   "Citation": {
     "Publication": [
       {
@@ -47,25 +33,22 @@
       "EndPoint": "https://api.earthsystemdatalab.net/api",
       "Type": "zarr",
       "Name": "xcube",
-      "Style": "http://0.0.0.0:8001/collections/ESDC_net_ecosystem_exchange/style.json",
       "StacEndpoint": "/ogc",
       "DatacubeId": "esdc",
       "Variable": "net_ecosystem_exchange",
       "ColormapName": "bwr",
-      "Rescale": [
-        -7,
-        2
-      ],
+      "Rescale": [-7, 2],
       "Query": {
         "Start": "2014-01-01T00:00:00Z",
         "End": "2018-12-23T00:00:00Z"
-      }
+      },
+      "Unit": "[gCm^-2d^-1]"
     }
   ],
-    "Process": {
-  "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
-  "VegaDefinition": "ESDC_net_ecosystem_exchange/chart.json",
-  "EndPoints": [
+  "Process": {
+    "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/xcube_form.json",
+    "VegaDefinition": "ESDC_net_ecosystem_exchange/chart.json",
+    "EndPoints": [
       {
         "Url": "https://api.earthsystemdatalab.net/api/timeseries/esdc/net_ecosystem_exchange?aggMethods=median",
         "Identifier": "xcube_statistics",

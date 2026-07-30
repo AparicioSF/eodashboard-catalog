@@ -29,7 +29,6 @@
     "ESA",
     "JAXA"
   ],
-  "Legend": "N6_geoglam/N6_legend.png",
   "Image": "N6_geoglam/N6_geoglam.jpg",
   "References": [
     {
@@ -44,41 +43,22 @@
       "Type": "cog",
       "CollectionId": "geoglam",
       "Bidx": 1,
-      "Colormap": "%7B%221%22%3A%20%5B120%2C%20120%2C%20120%2C%20255%5D%2C%222%22%3A%20%5B130%2C%2065%2C%200%2C%20255%5D%2C%223%22%3A%20%5B66%2C%20207%2C%2056%2C%20255%5D%2C%224%22%3A%20%5B245%2C%20239%2C%200%2C%20255%5D%2C%225%22%3A%20%5B241%2C%2089%2C%2032%2C%20255%5D%2C%226%22%3A%20%5B168%2C%200%2C%200%2C%20255%5D%2C%227%22%3A%20%5B0%2C%20143%2C%20201%2C%20255%5D%7D"
+      "Colormap": "%7B%221%22%3A%20%5B120%2C%20120%2C%20120%2C%20255%5D%2C%222%22%3A%20%5B130%2C%2065%2C%200%2C%20255%5D%2C%223%22%3A%20%5B66%2C%20207%2C%2056%2C%20255%5D%2C%224%22%3A%20%5B245%2C%20239%2C%200%2C%20255%5D%2C%225%22%3A%20%5B241%2C%2089%2C%2032%2C%20255%5D%2C%226%22%3A%20%5B168%2C%200%2C%200%2C%20255%5D%2C%227%22%3A%20%5B0%2C%20143%2C%20201%2C%20255%5D%7D",
+      "Unit": "Crop conditions"
     }
   ],
   "Provider": [
     {
       "Name": "GEOGLAM",
-      "Roles": ["licensor, processor"],
+      "Roles": [
+        "licensor, processor"
+      ],
       "Url": "https://www.cropmonitor.org/eo-data"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      "Exceptional",
-      "Favourable",
-      "Watch",
-      "Poor",
-      "Failure",
-      "Out-of-season",
-      "No data"
-    ],
-    "range": [
-      "#447fca",
-      "#0be840",
-      "#f1ff00",
-      "#f34a00",
-      "#8e0000",
-      "#787878",
-      "#834100"
-    ],
-    "scaleType": "categorical",
-    "title": "Crop conditions"
-  },
   "Stories": [
     {
-      "Name": "El Niño 2023-2024: Food Security Impacts",
+      "Name": "El Ni\u00f1o 2023-2024: Food Security Impacts",
       "Id": "el_nino_part_3_food_security"
     },
     {

@@ -27,7 +27,6 @@
   "Agency": [
     "NASA"
   ],
-  "Legend": "N2_CO2_mean/N2_CO2_mean_legend.png",
   "Image": "N2_CO2_mean/N2_CO2_mean.jpg",
   "Citation": {
     "Publication": [
@@ -58,41 +57,19 @@
         0.000408,
         0.000419
       ],
-      "Bidx": 1
+      "Bidx": 1,
+      "Unit": "CO2 mean concentration [ppm]"
     }
   ],
   "Provider": [
     {
       "Name": "NASA",
-      "Roles": ["licensor, producer, processor"],
+      "Roles": [
+        "licensor, producer, processor"
+      ],
       "Url": "https://ocov2.jpl.nasa.gov/science/oco-2-data-center/"
     }
   ],
-  "Colorlegend": {
-    "domain": [
-      408,
-      419
-    ],
-    "range": [
-      "#313695",
-      "#4066ad",
-      "#5e93c4",
-      "#85bbd8",
-      "#afdbea",
-      "#d8eff6",
-      "#f3fad5",
-      "#fff3ad",
-      "#fed889",
-      "#fdb265",
-      "#f7814c",
-      "#e75136",
-      "#cb2527",
-      "#a50026"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "CO2 mean concentration [ppm]"
-  },
   "Process": {
     "Name": "VEDA Statistics",
     "JsonForm": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/defaults/veda_form.json",
