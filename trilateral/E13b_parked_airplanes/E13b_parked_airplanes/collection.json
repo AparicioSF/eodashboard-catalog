@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./CN011/collection.json",
       "type": "application/json",
-      "title": "Beijing",
+      "title": "Beijing - E13b_parked_airplanes",
       "id": "CN011",
       "latlng": "40.072,116.593",
       "country": "CN",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./CN012/collection.json",
       "type": "application/json",
-      "title": "Beijing Daxing",
+      "title": "Beijing Daxing - E13b_parked_airplanes",
       "id": "CN012",
       "latlng": "39.495,116.419",
       "country": "CN",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./FR8/collection.json",
       "type": "application/json",
-      "title": "Paris",
+      "title": "Paris - E13b_parked_airplanes",
       "id": "FR8",
       "latlng": "49.006976345624935,2.559786183921451",
       "country": "FR",
@@ -44,7 +44,7 @@
       "rel": "child",
       "href": "./IT9/collection.json",
       "type": "application/json",
-      "title": "Rome",
+      "title": "Rome - E13b_parked_airplanes",
       "id": "IT9",
       "latlng": "41.80710100142961,12.253597669510512",
       "country": "IT",
@@ -54,7 +54,7 @@
       "rel": "child",
       "href": "./JP012/collection.json",
       "type": "application/json",
-      "title": "Narita",
+      "title": "Narita - E13b_parked_airplanes",
       "id": "JP012",
       "latlng": "35.774,140.385",
       "country": "JP",
@@ -64,7 +64,7 @@
       "rel": "child",
       "href": "./UK4/collection.json",
       "type": "application/json",
-      "title": "Heathrow",
+      "title": "Heathrow - E13b_parked_airplanes",
       "id": "UK4",
       "latlng": "51.469716296645025,-0.4580423952680147",
       "country": "GB",
@@ -74,7 +74,7 @@
       "rel": "child",
       "href": "./US021/collection.json",
       "type": "application/json",
-      "title": "Los Angeles",
+      "title": "Los Angeles - E13b_parked_airplanes",
       "id": "US021",
       "latlng": "33.94,-118.41",
       "country": "US",
@@ -84,7 +84,7 @@
       "rel": "child",
       "href": "./US022/collection.json",
       "type": "application/json",
-      "title": "Ontario",
+      "title": "Ontario - E13b_parked_airplanes",
       "id": "US022",
       "latlng": "34.057,-117.6",
       "country": "US",
@@ -94,7 +94,7 @@
       "rel": "child",
       "href": "./US031/collection.json",
       "type": "application/json",
-      "title": "San Francisco",
+      "title": "San Francisco - E13b_parked_airplanes",
       "id": "US031",
       "latlng": "37.622,-122.378",
       "country": "US",
@@ -104,7 +104,7 @@
       "rel": "child",
       "href": "./US032/collection.json",
       "type": "application/json",
-      "title": "San Jose",
+      "title": "San Jose - E13b_parked_airplanes",
       "id": "US032",
       "latlng": "37.363,-121.93",
       "country": "US",
@@ -114,7 +114,7 @@
       "rel": "child",
       "href": "./US033/collection.json",
       "type": "application/json",
-      "title": "Oakland",
+      "title": "Oakland - E13b_parked_airplanes",
       "id": "US033",
       "latlng": "37.722,-122.226",
       "country": "US",
@@ -124,7 +124,7 @@
       "rel": "child",
       "href": "./US034/collection.json",
       "type": "application/json",
-      "title": "Hayward",
+      "title": "Hayward - E13b_parked_airplanes",
       "id": "US034",
       "latlng": "37.6585,-122.121",
       "country": "US",
@@ -134,7 +134,7 @@
       "rel": "child",
       "href": "./US035/collection.json",
       "type": "application/json",
-      "title": "Napa",
+      "title": "Napa - E13b_parked_airplanes",
       "id": "US035",
       "latlng": "38.216,-122.276",
       "country": "US",
@@ -144,7 +144,7 @@
       "rel": "child",
       "href": "./US036/collection.json",
       "type": "application/json",
-      "title": "Marin",
+      "title": "Marin - E13b_parked_airplanes",
       "id": "US036",
       "latlng": "38.144,-122.557",
       "country": "US",
@@ -154,7 +154,7 @@
       "rel": "child",
       "href": "./US037/collection.json",
       "type": "application/json",
-      "title": "Buchannan",
+      "title": "Buchannan - E13b_parked_airplanes",
       "id": "US037",
       "latlng": "37.99,-122.057",
       "country": "US",
@@ -164,7 +164,7 @@
       "rel": "child",
       "href": "./US041/collection.json",
       "type": "application/json",
-      "title": "New York",
+      "title": "New York - E13b_parked_airplanes",
       "id": "US041",
       "latlng": "40.642,-73.788",
       "country": "US",
@@ -174,7 +174,7 @@
       "rel": "child",
       "href": "./US042/collection.json",
       "type": "application/json",
-      "title": "Newark",
+      "title": "Newark - E13b_parked_airplanes",
       "id": "US042",
       "latlng": "40.689,-74.172",
       "country": "US",
@@ -187,9 +187,30 @@
       "title": "Parked Airplanes"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Grounded airplanes during the novel coronavirus pandemic",
+  "eodash:stories": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
-  "yAxis": "Time series of airport throughput",
   "themes": [
     "economy",
     "covid-19"
@@ -227,10 +248,112 @@
     "spatial": {
       "bbox": [
         [
-          -0.4680423952680147,
-          41.79710100142961,
-          12.263597669510512,
-          51.47971629664502
+          -122.565,
+          33.93,
+          140.406,
+          51.4794056
+        ],
+        [
+          116.566,
+          40.05,
+          116.621,
+          40.105
+        ],
+        [
+          116.362,
+          39.466,
+          116.476,
+          39.524
+        ],
+        [
+          2.4911452,
+          48.9828244,
+          2.6499404,
+          49.0305805
+        ],
+        [
+          12.2200814,
+          41.7759028,
+          12.2813191,
+          41.8542539
+        ],
+        [
+          140.364,
+          35.742,
+          140.406,
+          35.806
+        ],
+        [
+          -0.4943776,
+          51.4560987,
+          -0.4151697,
+          51.4794056
+        ],
+        [
+          -118.44,
+          33.93,
+          -118.38,
+          33.95
+        ],
+        [
+          -117.63,
+          34.048,
+          -117.575,
+          34.065
+        ],
+        [
+          -122.4,
+          37.605,
+          -122.355,
+          37.64
+        ],
+        [
+          -121.945,
+          37.35,
+          -121.912,
+          37.377
+        ],
+        [
+          -122.252,
+          37.7,
+          -122.2,
+          37.745
+        ],
+        [
+          -122.132,
+          37.653,
+          -122.11,
+          37.664
+        ],
+        [
+          -122.286,
+          38.206,
+          -122.266,
+          38.226
+        ],
+        [
+          -122.565,
+          38.137,
+          -122.55,
+          38.15
+        ],
+        [
+          -122.064,
+          37.98,
+          -122.05,
+          38.0
+        ],
+        [
+          -73.825,
+          40.62,
+          -73.753,
+          40.664
+        ],
+        [
+          -74.19,
+          40.67,
+          -74.155,
+          40.708
         ]
       ]
     },
@@ -251,7 +374,7 @@
     },
     {
       "name": "ESA",
-      "url": "https://sentinel.esa.int/web/sentinel/"
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {
       "name": "NASA",
@@ -292,6 +415,24 @@
     ]
   },
   "assets": {
+    "airports": {
+      "href": "https://eodashboard.org/story/?id=airports",
+      "type": "text/markdown",
+      "title": "Grounded: How COVID-19 Emptied the World's Airports",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/airports.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E13b_parked_airplanes/E13b_parked_airplanes.jpg",
       "type": "image/png",

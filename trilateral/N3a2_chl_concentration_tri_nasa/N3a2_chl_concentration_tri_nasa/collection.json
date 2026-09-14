@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./NorthAdriaticCHL/collection.json",
       "type": "application/json",
-      "title": "North Adriatic",
+      "title": "North Adriatic - N3a2_chl_concentration_tri_nasa",
       "id": "NorthAdriaticCHL",
       "latlng": "45.19752, 13.02978",
       "country": "IT",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./US03/collection.json",
       "type": "application/json",
-      "title": "San Francisco",
+      "title": "San Francisco - N3a2_chl_concentration_tri_nasa",
       "id": "US03",
       "latlng": "37.7775, -122.41638",
       "country": "US",
@@ -34,7 +34,7 @@
       "rel": "child",
       "href": "./US04/collection.json",
       "type": "application/json",
-      "title": "New York",
+      "title": "New York - N3a2_chl_concentration_tri_nasa",
       "id": "US04",
       "latlng": "41.0114, -73.09",
       "country": "US",
@@ -53,30 +53,6 @@
     }
   ],
   "subtitle": "Chlorophyll-a concentration maps",
-  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
-  "yAxis": "%",
-  "themes": [
-    "water"
-  ],
-  "tags": [
-    "Water quality",
-    "Marine",
-    "Acqua",
-    "MODIS",
-    "Open data",
-    "Marine monitoring",
-    "Chlorophyll-a"
-  ],
-  "agency": [
-    "NASA"
-  ],
-  "subcode": "N3a2_chl_nasa",
-  "sensor": [
-    "MODIS"
-  ],
-  "satellite": [
-    "Acqua"
-  ],
   "eox:colorlegend": {
     "domain": [
       -100,
@@ -93,6 +69,29 @@
     "tickFormat": ".0f",
     "title": "Chl-a anomaly [%]"
   },
+  "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_chl_concentration_tri/thumbnail.jpg",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "Water quality",
+    "Marine",
+    "Acqua",
+    "MODIS",
+    "Open data",
+    "Marine monitoring",
+    "Chlorophyll"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N3a2_chl_nasa",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Acqua"
+  ],
   "locations": true,
   "endpointtype": "GeoDB",
   "title": "Chlorophyll-a concentration from MODIS",
@@ -100,28 +99,28 @@
     "spatial": {
       "bbox": [
         [
-          -122.42638000000001,
-          37.767500000000005,
-          13.03978,
-          45.207519999999995
+          -122.6033,
+          37.39634,
+          14.0,
+          45.81168
         ],
         [
-          13.01978,
-          45.18752,
-          13.03978,
-          45.207519999999995
+          12.06659,
+          44.48155,
+          14.0,
+          45.81168
         ],
         [
-          -122.42638000000001,
-          37.767500000000005,
-          -122.40638,
-          37.7875
+          -122.6033,
+          37.39634,
+          -121.69693,
+          38.15399
         ],
         [
-          -73.10000000000001,
-          41.001400000000004,
-          -73.08,
-          41.0214
+          -74.16735,
+          40.17179,
+          -70.97122,
+          41.5339
         ]
       ]
     },

@@ -21,6 +21,12 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "JAXA"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Antarctic-N12.jpg"
+      ],
       "tags": [
         "Antarctica",
         "Sea ice",
@@ -50,38 +56,40 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "wms",
-      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
       "type": "image/png",
       "title": "Terrain Light Stereographic South",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "sx-cat_ortho320500",
       "wms:layers": "sx-cat_ortho320500",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "eodash:proj4_def": {
         "name": "ORTHO:320500",
         "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
@@ -89,12 +97,12 @@
     },
     {
       "rel": "wms",
-      "href": "//maps.bas.ac.uk/antarctic/wms",
+      "href": "https://maps.bas.ac.uk/antarctic/wms",
       "type": "image/png",
       "title": "Antarctic hilshade, bathymetry",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "Antarctic_hilshade",
       "wms:layers": "add:antarctic_hillshade_and_bathymetry",
@@ -106,7 +114,7 @@
     },
     {
       "rel": "wms",
-      "href": "//maps.bas.ac.uk/antarctic/wms",
+      "href": "https://maps.bas.ac.uk/antarctic/wms",
       "type": "image/png",
       "title": "Antarctic coastline",
       "roles": [
@@ -128,6 +136,27 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "eox:colorlegend": {
+    "domain": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "range": [
+      "#4040ff",
+      "#4646ff",
+      "#6262ff",
+      "#9999ff",
+      "#d1d1ff",
+      "#ffffff"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Percentage"
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Antarctic-N12.jpg",
   "themes": [
     "cryosphere"
@@ -158,27 +187,6 @@
       3333134.03
     ]
   },
-  "eox:colorlegend": {
-    "domain": [
-      50,
-      60,
-      70,
-      80,
-      90,
-      100
-    ],
-    "range": [
-      "#4040ff",
-      "#4646ff",
-      "#6262ff",
-      "#9999ff",
-      "#d1d1ff",
-      "#ffffff"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Percentage"
-  },
   "title": "Sea ice concentration GCOM-W - Antarctic",
   "extent": {
     "spatial": {
@@ -195,7 +203,7 @@
       "interval": [
         [
           "2012-07-04T11:59:30Z",
-          "2024-07-31T11:59:30Z"
+          "2026-06-30T11:59:30Z"
         ]
       ]
     }
@@ -204,7 +212,9 @@
   "providers": [
     {
       "name": "JAXA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://global.jaxa.jp/"
     }
   ],

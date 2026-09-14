@@ -22,10 +22,17 @@
       "themes": [
         "cryosphere"
       ],
+      "providers": [
+        "ESA",
+        "EUMETSAT"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg"
+      ],
       "tags": [
         "Antarctica",
         "climate change",
-        "Polar regions",
+        "Polar Regions",
         "Open data",
         "Open Science",
         "Cryosphere",
@@ -63,38 +70,40 @@
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
-      "title": "EOxCloudless 2023",
+      "title": "EOxCloudless 2025",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "cloudless-2023"
+      "id": "cloudless-2025",
+      "attribution": "{ EOxCloudless 2025: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2025) }"
     },
     {
       "rel": "xyz",
-      "href": "//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
+      "href": "https://s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg",
       "type": "image/jpeg",
       "title": "OSM Background",
       "roles": [
         "baselayer",
         "invisible"
       ],
-      "id": "OSM"
+      "id": "OSM",
+      "attribution": "{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"
     },
     {
       "rel": "wms",
-      "href": "//sxcat-demo.eox.at/sxcat_maps/wms",
+      "href": "https://sxcat-demo.eox.at/sxcat_maps/wms",
       "type": "image/png",
       "title": "Terrain Light Stereographic South",
       "roles": [
         "baselayer",
-        "invisible"
+        "visible"
       ],
       "id": "sx-cat_ortho320500",
       "wms:layers": "sx-cat_ortho320500",
-      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
+      "attribution": "{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }",
       "eodash:proj4_def": {
         "name": "ORTHO:320500",
         "def": "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs"
@@ -102,12 +111,12 @@
     },
     {
       "rel": "wms",
-      "href": "//maps.bas.ac.uk/antarctic/wms",
+      "href": "https://maps.bas.ac.uk/antarctic/wms",
       "type": "image/png",
       "title": "Antarctic hilshade, bathymetry",
       "roles": [
         "baselayer",
-        "visible"
+        "invisible"
       ],
       "id": "Antarctic_hilshade",
       "wms:layers": "add:antarctic_hillshade_and_bathymetry",
@@ -119,7 +128,7 @@
     },
     {
       "rel": "wms",
-      "href": "//maps.bas.ac.uk/antarctic/wms",
+      "href": "https://maps.bas.ac.uk/antarctic/wms",
       "type": "image/png",
       "title": "Antarctic coastline",
       "roles": [
@@ -141,6 +150,9 @@
       "title": "Earth Observing Dashboard"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "sci:publications": [
     {
       "citation": "REMA: Howat, I. M., Porter, C., Smith, B. E., Noh, M.-J., and Morin, P. (2019): The Reference Elevation Model of Antarctica, The Cryosphere, 13, 665-674.\n",
@@ -148,6 +160,68 @@
     }
   ],
   "subtitle": "Antarctica Melt Duration from 4D Antarctica",
+  "eox:colorlegend": {
+    "domain": [
+      3,
+      210
+    ],
+    "range": [
+      "#306bff",
+      "#488eff",
+      "#5ca5ff",
+      "#6fb4ff",
+      "#82beff",
+      "#94c7ff",
+      "#a3d0ff",
+      "#b2d8ff",
+      "#c2deff",
+      "#cee5ff",
+      "#d8ecff",
+      "#e1f2ff",
+      "#e9f6ff",
+      "#f2fbff",
+      "#fbffff"
+    ],
+    "scaleType": "continuous",
+    "tickFormat": ".0f",
+    "title": "Ice melting [days]"
+  },
+  "eodash:stories": {
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADD_Melt_Duration/thumbnail.jpg",
   "themes": [
     "cryosphere"
@@ -155,7 +229,7 @@
   "tags": [
     "Antarctica",
     "climate change",
-    "Polar regions",
+    "Polar Regions",
     "Open data",
     "Open Science",
     "Cryosphere",
@@ -190,32 +264,6 @@
       3333134.03
     ]
   },
-  "eox:colorlegend": {
-    "domain": [
-      3,
-      210
-    ],
-    "range": [
-      "#306bff",
-      "#488eff",
-      "#5ca5ff",
-      "#6fb4ff",
-      "#82beff",
-      "#94c7ff",
-      "#a3d0ff",
-      "#b2d8ff",
-      "#c2deff",
-      "#cee5ff",
-      "#d8ecff",
-      "#e1f2ff",
-      "#e9f6ff",
-      "#f2fbff",
-      "#fbffff"
-    ],
-    "scaleType": "continuous",
-    "tickFormat": ".0f",
-    "title": "Ice melting [days]"
-  },
   "title": "Antarctica Melt Duration",
   "extent": {
     "spatial": {
@@ -241,7 +289,7 @@
   "providers": [
     {
       "name": "ESA",
-      "url": "https://sentinel.esa.int/web/sentinel/"
+      "url": "https://sentinels.copernicus.eu/web/sentinel/home"
     },
     {
       "name": "EUMETSAT",
@@ -271,6 +319,42 @@
       "type": "image/png",
       "roles": [
         "metadata"
+      ]
+    },
+    "nasa-thwaites": {
+      "href": "https://eodashboard.org/story/?id=nasa-thwaites",
+      "type": "text/markdown",
+      "title": "Pine Island Glacier and Thwaites Glacier",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/nasa-thwaites.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
+    "thwaites-intro": {
+      "href": "https://eodashboard.org/story/?id=thwaites-intro",
+      "type": "text/markdown",
+      "title": "Collaboration on Glaciers and Ice Sheets Research",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/thwaites-intro.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
       ]
     },
     "thumbnail": {

@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./BR04/collection.json",
       "type": "application/json",
-      "title": "Paraná",
+      "title": "Paraná - soil_moisture_timeseries",
       "id": "BR04",
       "latlng": "-24.615, -51.315",
       "country": "BR",
@@ -24,7 +24,7 @@
       "rel": "child",
       "href": "./US10/collection.json",
       "type": "application/json",
-      "title": "Kansas",
+      "title": "Kansas - soil_moisture_timeseries",
       "id": "US10",
       "latlng": "38.5,-98.325",
       "country": "US",
@@ -37,9 +37,30 @@
       "title": "Local Soil Moisture from GSMaP"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
+  ],
   "subtitle": "Soil Moisture Timeseries",
+  "eodash:stories": {
+    "world_crop_supply_and_demand": {
+      "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",
+      "type": "text/markdown",
+      "title": "Satellites are Providing Insights into Agricultural Production, Crop Conditions, and Food Supply",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/world_crop_supply_and_demand.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    }
+  },
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCTS_soil_moisture_timeseries/SMCTS_soil_moisture_timeseries.jpg",
-  "yAxis": "Soil Moisture Contains[%]",
   "themes": [
     "agriculture"
   ],
@@ -61,22 +82,22 @@
     "spatial": {
       "bbox": [
         [
-          -98.33500000000001,
-          -24.625,
-          -51.305,
-          38.51
+          -98.525,
+          -24.814999999999998,
+          -51.114999999999995,
+          38.7
         ],
         [
-          -51.324999999999996,
-          -24.625,
-          -51.305,
-          -24.604999999999997
+          -51.515,
+          -24.814999999999998,
+          -51.114999999999995,
+          -24.415
         ],
         [
-          -98.33500000000001,
-          38.49,
-          -98.315,
-          38.51
+          -98.525,
+          38.3,
+          -98.125,
+          38.7
         ]
       ]
     },
@@ -93,7 +114,9 @@
   "providers": [
     {
       "name": "JAXA",
-      "roles": "licensor, producer, processor",
+      "roles": [
+        "licensor, producer, processor"
+      ],
       "url": "https://global.jaxa.jp/"
     }
   ],
@@ -108,6 +131,24 @@
     ]
   },
   "assets": {
+    "world_crop_supply_and_demand": {
+      "href": "https://eodashboard.org/story/?id=world_crop_supply_and_demand",
+      "type": "text/markdown",
+      "title": "Satellites are Providing Insights into Agricultural Production, Crop Conditions, and Food Supply",
+      "description": "Rendered page of the story",
+      "alternate": {
+        "raw": {
+          "href": "https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/main/world_crop_supply_and_demand.md",
+          "description": "Raw markdown content of the story",
+          "alternate:name": "raw story markdown"
+        }
+      },
+      "alternate:name": "rendered story page",
+      "roles": [
+        "metadata",
+        "story"
+      ]
+    },
     "thumbnail": {
       "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SMCTS_soil_moisture_timeseries/SMCTS_soil_moisture_timeseries.jpg",
       "type": "image/png",
