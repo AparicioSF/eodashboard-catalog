@@ -10,7 +10,7 @@
           "Time": "20210101",
           "Assets": [
             {
-              "Identifier": "",
+              "Identifier": "KualaSelat_2021",
               "File": " https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/ALOS_PALSAR_YEARLY_KualaSelat_2021.tif"
             }
           ]
