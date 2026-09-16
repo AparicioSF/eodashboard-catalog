@@ -14,6 +14,87 @@
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"
             }
           ]
+        },
+        {
+          "Time": "20160101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2016",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2016.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20170101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2017",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2017.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20180101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2018",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2018.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20190101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2019",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2019.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20200101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2020",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2020.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20210101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2021",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2021.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20220101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2022",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2022.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20230101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2023",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2023.tif"
+            }
+          ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "Hanoi_2024",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2024.tif"
+            }
+          ]
         }
       ],
       "Name": "COG source",
