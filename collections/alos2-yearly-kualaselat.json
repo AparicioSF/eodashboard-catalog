@@ -14,6 +14,15 @@
               "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/KualaSelat/ALOS2_ScanSAR_KualaSelat_2021.tif"
             }
           ]
+        },
+        {
+          "Time": "20240101",
+          "Assets": [
+            {
+              "Identifier": "palsar2-scansar-yearly-median-kualaselat-2024",
+              "File": "https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/KualaSelat/ALOS2_ScanSAR_KualaSelat_2024.tif"
+            }
+          ]
         }
       ],
       "Name": "COG source",
