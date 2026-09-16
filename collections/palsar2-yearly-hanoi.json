@@ -16,7 +16,13 @@
           ]
         }
       ],
-      "Name": "COG source"
+      "Name": "COG source",
+      "Bbox": [
+        105.3,
+        20.8,
+        106.05,
+        21.4
+      ]
     }
   ],
   "EodashIdentifier": "palsar2-yearly-hanoi"
