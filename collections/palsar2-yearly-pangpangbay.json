@@ -25,7 +25,13 @@
           ]
         }
       ],
-      "Name": "COG source"
+      "Name": "COG source",
+      "Bbox": [
+        114.29984012079969,
+        -8.600021372518238,
+        114.4202143688717,
+        -8.399921642980615
+      ]
     }
   ],
   "EodashIdentifier": "palsar2-yearly-pangpangbay"
