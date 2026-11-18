@@ -71,6 +71,9 @@
       "title": "Nightlights from SUOMI-NPP"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "30-meter Black Marble High Definition (HD) nighttime lights",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/N5_nightlights.jpg",
   "themes": [
@@ -352,6 +355,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 34207,
       "roles": [
         "collection-mirror"
       ]

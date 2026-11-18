@@ -29,6 +29,9 @@
       "title": "NASA ECOSTRESS land surface temperature"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "sci:doi": "10.5067/ECOSTRESS/ECO2LSTE.001",
   "sci:citation": "Hook, S., Hulley, G. (2019). ECOSTRESS Land Surface Temperature and Emissivity Daily L2 Global 70 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center\n",
   "eox:colorlegend": {

@@ -103,6 +103,9 @@
       "title": "Chlorophyll-a concentration from Sentinel-3"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Chlorophyll-a concentration maps",
   "eox:colorlegend": {
     "domain": [

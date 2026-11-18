@@ -23,6 +23,9 @@
       "title": "Nitrogen Dioxide (Monthly Difference)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Mean NO2 column density compared to 2015-2019 baseline [10^15 mol/cm²]",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2_diff_monthly/N1_NO2_diff_monthly.jpg",
   "themes": [
@@ -306,6 +309,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 41424,
       "roles": [
         "collection-mirror"
       ]

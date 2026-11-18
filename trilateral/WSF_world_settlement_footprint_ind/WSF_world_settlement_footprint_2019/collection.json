@@ -35,6 +35,7 @@
     }
   ],
   "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
     "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json"
   ],
   "sci:doi": "10.1553/giscience2021_01_s33",
@@ -123,6 +124,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 14096,
       "roles": [
         "collection-mirror"
       ]

@@ -40,6 +40,9 @@
       "title": "Global seasonal Sentinel-1 backscatter"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "sci:doi": "10.5067/8W33RRS6S2RV",
   "sci:citation": "Kellndorfer, J. , O. Cartus, M. Lavalle,  C. Magnard, P. Milillo, S. Oveisgharan, B. Osmanoglu, P. Rosen, and U. Wegmüller. 2022. \nGlobal seasonal Sentinel-1 interferometric coherence and backscatter data set. \nFairbanks, Alaska USA. NASA Alaska Satellite Facility Synthetic Aperture Radar Distributed Active Archive Center.\n",
   "sci:publications": [

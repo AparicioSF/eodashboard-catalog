@@ -29,6 +29,9 @@
       "title": "ESA Sentinel-1 for Science Amazonas"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Multi-temporal Change Detection",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MCD_S14Amazonas_detections/thumbnail.jpg",
   "themes": [
@@ -94,6 +97,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 15798,
       "roles": [
         "collection-mirror"
       ]

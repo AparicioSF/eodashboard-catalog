@@ -23,6 +23,9 @@
       "title": "GRDI Filled Missing Values Count"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "sci:doi": "10.7927/3xxe-ap97",
   "sci:citation": "Center for International Earth Science Information Network - CIESIN - Columbia University. 2022. Global Gridded Relative Deprivation Index (GRDI), v1. Palisades, NY. NASA Socioeconomic Data and Applications Center (SEDAC).\n",
   "subtitle": "Global Gridded Relative Deprivation Index - Filled Missing Values Count",
@@ -302,6 +305,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 31370,
       "roles": [
         "collection-mirror"
       ]

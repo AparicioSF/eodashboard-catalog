@@ -23,6 +23,9 @@
       "title": "Evapotranspiration LIS"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
   "thumbnail": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.jpg",
   "themes": [
@@ -304,6 +307,7 @@
       "href": "./items.parquet",
       "type": "application/vnd.apache.parquet",
       "title": "GeoParquet Items",
+      "file:size": 659437,
       "roles": [
         "collection-mirror"
       ]

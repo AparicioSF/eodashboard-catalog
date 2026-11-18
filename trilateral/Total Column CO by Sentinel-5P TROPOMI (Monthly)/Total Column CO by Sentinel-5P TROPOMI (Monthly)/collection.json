@@ -30,6 +30,9 @@
       "title": "Total Column CO by Sentinel-5P TROPOMI (Monthly)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "eox:colorlegend": {
     "domain": [
       60.0,

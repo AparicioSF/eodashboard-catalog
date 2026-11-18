@@ -38,6 +38,9 @@
       "title": "Carbon Monoxide observed by Sentinel-5p TROPOMI"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Global 3-daily Carbon monoxide",
   "eox:colorlegend": {
     "domain": [

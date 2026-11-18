@@ -38,6 +38,9 @@
       "title": "Air Quality (tropospheric NO2 concetrations)"
     }
   ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json"
+  ],
   "subtitle": "Daily Nitrogen Dioxide",
   "eox:colorlegend": {
     "domain": [
