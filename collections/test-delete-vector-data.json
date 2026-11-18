@@ -5,7 +5,7 @@
   "Resources": [
     {
       "Name": "GeoJSON source",
-      "Style": "",
+      "Style": "bucket/public/stories/science-hub/November-2026/train_val_footprints_style.json",
       "TimeEntries": [
         {
           "Time": "2026",
